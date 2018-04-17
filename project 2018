@@ -1,0 +1,76 @@
+                                    
+
+
+
+                                Project 2018 
+                      Programming and Scripting
+         Higher Diploma in Data Analytics, GMIT
+
+
+
+
+
+
+Student Name: Biny Baby
+Student No. G00364723
+Date of Submission April 2018 
+
+
+	Index
+Content	Page No
+Introduction	3
+Use of Iris Data	4
+Python codes	4
+Graphs using excel	6
+Conclusion	8
+References	8
+
+	 
+Project 2018 (Programming and Scripting)
+1.0 Introduction
+The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus".
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. A simple function that, given the four measurements, classified a flower correctly. This was the beginning of creating “predictors” in order to try to make a more educated guess on a record in a dataset. Iris is a data frame with 150 cases (rows) and 5 variables (columns). The first five lines from this file look like this:
+5.1,3.5,1.4,0.2, Iris-setosa
+4.9,3.0,1.4,0.2, Iris-setosa
+4.7,3.2,1.3,0.2, Iris-setosa
+4.6,3.1,1.5,0.2, Iris-setosa
+5.0,3.6,1.4,0.2, Iris-setosa
+In each row, the first four entries are the four measurements described above and the fifth is the name of the species. (Further down the file, there are 45 more lines of Iris-setosa, then fifty lines each of of Iris-versicolor, then Iris-virginica.) So, we want to think of each row as a vector followed by a label.
+
+2.0 Use of Iris Data Set 
+The Iris dataset is deservedly widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning. Containing 150 observations, it is small but not trivial. The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging. The data are real data, but apparently of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. Nevertheless, few people object to real data. Using a few famous datasets is one of the traditions we hand down, such as telling each new generation that Student worked for Guinness or that many famous statisticians fell out with each other. That may sound like inertia, but in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods. Last, but not least, the Iris dataset can be enjoyably coupled with pictures of the flowers concerned.
+3.0 As part of this project I have calculated the average value, the minimum value and maximum value for each of the characteristic of each flower.
+3.1 To find the average value of the data the following python code was used.
+ Using the above code generate output. Enter how many numbers/variables exist in one characteristic of one type of flower. Then enter each variable individually when it says enter number. When all are entered the output will be the average of the numbers. 
+3.2 To sort the list of numbers and to find the minimum and maximum values. First sort the list and then using the code ask for minimum and maximum value of numbers in the entered list.
+ 
+3.3 Output using the above codes
+	Iris setosa	Iris versicolor	Iris virginica
+	Sepal length	Sepal width	Petal length	Petal width	Sepal length	Sepal width	Petal length	Petal width	Sepal length	Sepal width	Petal length	Petal width
+Average	5.05	3.42	1.46	0.24	5.94	2.77	4.26	1.33	6.59	2.97	5.55	2.03
+Min value	4.3	2.3	1	0.1	4.9	2.0	3	1	4.9	2.2	4.5	1.4
+Max value	5.8	4.4	1.9	0.6	7	3.4	5.1	1.8	7.9	3.8	6.9	2.5
+												
+
+
+
+
+4.0 The graphs below show the characteristics of each flour based on their sepal and petal length and width. These were created on excel.
+Iris Setosa
+ 
+Iris Versicolor
+ 
+
+
+Iris Virginica
+ 
+
+Conclusion
+The above project discusses the iris project its uses and shows basic python codes that could be used to calculate average, maximum and minimum value and how to sort digits. The project also includes the comparison of the 4 characteristics of the three flowers that is graphically represented using excel.
+
+References
+1.	https://en.wikipedia.org/wiki/Iris_flower_data_set
+2.	https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html
+3.	https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/iris.html
+4.	https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
+5.	https://github.com/Binybaby/average/blob/master/of%20a%20list%20of%20numbers
